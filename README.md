@@ -13,5 +13,8 @@ copiar o arquivo 'env.example' e colar no mesmo local com o nome '.env' e config
 - composer install
 - php artisan key:generate
 
+## COMANDO PARA EXECUTAR AS MIGRATIONS (CRIAR AS TABELAS NO BANCO DE DADOS)
+- php artisan migrate
+
 ## COMANDO PARA INICIAR O PROJETO EM LOCALHOST:8000
 - php artisan serve
